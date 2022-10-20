@@ -1,0 +1,17 @@
+{
+    "name": "SMN947InitTab",
+    "version": "1.0.0",
+    "description": "Chrome Init Tab",
+    "manifest_version": 3,
+    "author": "SMN947",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "InitTab"
+    },
+    "chrome_settings_overrides": {
+        "homepage": "http://link.al.repo"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}

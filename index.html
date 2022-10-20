@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SMN947InitTab</title>
+</head>
+
+<body>
+    <div class="iconos">
+        <ul>
+            <li><span id="config">🏗</span></li>
+            <li>
+                🔋
+                <span id="batLevel">10%</span>
+            </li>
+        </ul>
+    </div>
+    <fieldset>
+        <legend>Buscador</legend>
+        <div class="buscador">
+            <input type="text" id="abuscar" placeholder="Buscar...">
+            <button id="buscar">Buscar</button>
+        </div>
+    </fieldset>
+    <div class="row">
+        <fieldset class="col-2">
+            <legend>Enlaces</legend>
+            <div class="buscador">
+
+            </div>
+        </fieldset>
+        <fieldset class="col-2">
+            <legend>Historial</legend>
+            <div class="buscador">
+
+            </div>
+        </fieldset>
+    </div>
+</body>
+<script src="./script.js"></script>
+<style>
+    * {
+        border: solid red 1px
+    }
+
+    .iconos {
+        position: fixed;
+        width: max-content;
+        top: 0px;
+        right: 10px;
+    }
+
+    .iconos ul {
+        padding: 0px;
+        display: inline-flex;
+    }
+
+    .iconos li {
+        list-style: none;
+        font-size: 20px;
+        padding: 5px;
+    }
+</style>
+<script src="./bateria.js"></script>
+
+</html>
